@@ -8,7 +8,11 @@ This tool automates the analysis of key committing attacks for AES-based AEAD (A
 - PyInstaller (for generating standalone executables, if needed)
 
 ### Run the tool directly using Python:
+'''
 python key_committing_tool_gui.py
+'''
 
 ### To create an executable file for the tool:
+'''
 pyinstaller key_committing_tool_gui.spec
+'''
